@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-Off Switch</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color:black;
+            height: 100px;
+            width: 300px;
+            border-radius: 80px;
+        }
+        .on {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width:50px;
+            border-radius: 100%;
+            background-color: white;
+            float: right;
+            margin: 20px 20px 5px 5px;
+            position: relative;
+        }
+        .line {
+            height: 5vh;
+            width:260px;
+            background-color: red;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+            margin-top: 25px;
+            border-radius: 30px;
+            
+        }
+          
+    </style>
+   
+</head>
+<body>
+<div>
+    <div class="container">
+        <div>
+        <div class="line"></div>
+        <div class="on"></div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
